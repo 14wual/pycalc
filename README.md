@@ -31,6 +31,7 @@ sudo dpkg -i pycalc.deb
 
 ## Gallery
 
+![image-0](https://github.com/14wual/pycalc/assets/105047274/cea0cfc8-2b27-489d-9c5e-21c682c6a128)
 ![image-1](https://github.com/14wual/pycalc/assets/105047274/59712532-2fc6-4219-ab21-b33abe8e7fa2)
 ![image-2](https://github.com/14wual/pycalc/assets/105047274/4584f844-bd59-4dc0-90af-6273aa50055a)
 
