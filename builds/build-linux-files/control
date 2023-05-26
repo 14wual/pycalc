@@ -1,0 +1,7 @@
+Package: pycalc
+Version: 0.0.1
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Carlos Padilla cpadlab@gmail.com
+Description: Python GUI Calculator.
