@@ -2,7 +2,7 @@
 
 **PyCalc** is an application written in `python` that performs the function of a **simple calculator**. With a **simple installer** and a **clean** and pretty **interface**.
 
-## Install
+## Compile
 
 ### Requirements
 
@@ -18,12 +18,41 @@ plyer==2.1.0'
 
 ### Windows
 
-Download the .exe installer of the [latest release](https://github.com/14wual/pycalc/releases) or access the [builds folder](https://github.com/14wual/pycalc/tree/master/builds) to download it. By running it and giving it permissions, you will have the program fully functional.
+1. **With `PyInstaler`**:
 
+```
+pip install pyinstaller
+git clone https://github.com/14wual/pycalc && cd pycalcs
+pyinstaller pycalc.spec
+```
+
+1. **With `ISS` FIle**:
+
+- Download `ISDL Compiler` from [official website](https://jrsoftware.org/isdl.php).
+- Install the application and `run`.
+- Clone: https://github.com/14wual/pycalc
+- Load the `pycalc.iss file`.
+- And pulsa the button: "``build/compile`"
 
 ### Linux - Debian
 
-Download the [latest version](https://github.com/14wual/pycalc/releases) .deb package or go to the [builds folder](https://github.com/14wual/pycalc/tree/master/builds) to download it. Run the following command and you will have the fully functional program.
+1. **With `PyInstaler`**:
+
+```
+pip install pyinstaller
+git clone https://github.com/14wual/pycalc && cd pycalcs
+pyinstaller pycalc.spec
+```
+
+2. **With `Debian Package`**:
+
+```
+git clone https://github.com/14wual/pycalc && cd pycalcs
+chmod +x DEBIAN/postinst
+dpkg-deb --build pycalc
+```
+
+For install, `exec` this command:
 
 ```
 sudo dpkg -i pycalc.deb
