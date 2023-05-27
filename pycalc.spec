@@ -11,8 +11,8 @@ options = {
     'onefile': True,
     'add_data': [
         (f'{Path().resolve()}/pycalc/src/images', 'pycalc/src/images'),
-        (f'{Path().resolve()}/pycalc/src/log/history.csv', 'pycalc/src/log')
-        'add_data': [(f'{Path().resolve()}/pycalc/src/config.ini', 'pycalc/src')],
+        (f'{Path().resolve()}/pycalc/src/log/history.csv', 'pycalc/src/log'),
+        (f'{Path().resolve()}/pycalc/src/config.ini', 'pycalc/src'),
     ],
 }
 
