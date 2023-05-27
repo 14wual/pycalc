@@ -22,7 +22,7 @@ plyer==2.1.0'
 
 ```
 pip install pyinstaller
-git clone https://github.com/14wual/pycalc && cd pycalcs
+git clone https://github.com/14wual/pycalc && cd pycalc
 pyinstaller pycalc.spec
 ```
 
@@ -40,14 +40,14 @@ pyinstaller pycalc.spec
 
 ```
 pip install pyinstaller
-git clone https://github.com/14wual/pycalc && cd pycalcs
+git clone https://github.com/14wual/pycalc && cd pycalc
 pyinstaller pycalc.spec
 ```
 
 2. **With `Debian Package`**:
 
 ```
-git clone https://github.com/14wual/pycalc && cd pycalcs
+git clone https://github.com/14wual/pycalc && cd pycalc
 chmod +x DEBIAN/postinst
 dpkg-deb --build pycalc
 ```
