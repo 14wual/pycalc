@@ -47,9 +47,9 @@ pyinstaller pycalc.spec
 2. **With `Debian Package`**:
 
 ```
-git clone https://github.com/14wual/pycalc && cd pycalc
-chmod +x DEBIAN/postinst
-dpkg-deb --build pycalc
+git clone https://github.com/14wual/pycalc
+sudo chmod +0555 pycalc/DEBIAN/postinst
+sudo dpkg-deb --build pycalc
 ```
 
 For install, `exec` this command:
